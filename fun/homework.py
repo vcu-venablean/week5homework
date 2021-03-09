@@ -1,7 +1,6 @@
 """Homework file for my students to have fun with some algorithms! """
 
-incoming_list = [1,2,3,4,5,6,7]
-incoming_dict = {"green": "perfect", "red": "good:"}
+
 def find_greatest_number(incoming_list):
     """
     Required parameter, incoming_list, should be a list.
@@ -32,4 +31,4 @@ def longest_value_key(incoming_dict):
     Required parameter, incoming_dict, should be a dict.
     Find the KEY that has a value with the highest length, use the len() function
     """
-    return max(incoming_dict.keys(), key = len)
+    return max(incoming_dict.keys(), key=len)
